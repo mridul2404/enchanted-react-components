@@ -11,6 +11,7 @@ Enchanted React Components is a collection of ui components that are being used 
 npm install @hcl-software/enchanted-react-components
 ```
 
+
 ```typescript
 import Button, { ButtonVariants } from '@hcl-software/enchanted-react-components/dist/Button/Button';
 
