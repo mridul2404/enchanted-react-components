@@ -80,6 +80,8 @@ export { default as Switch } from './Switch';
 export * from './Switch';
 export { default as Table } from './Table';
 export * from './Table';
+export { default as Tag } from './Tag';
+export * from './Tag';
 export { default as ToggleButton } from './ToggleButton';
 export * from './ToggleButton';
 export { default as ToggleButtonGroup } from './ToggleButtonGroup';

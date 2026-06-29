@@ -8,3 +8,4 @@ coverage
 storybook-static
 __image_snapshots__
 build-storybook.log
+.env

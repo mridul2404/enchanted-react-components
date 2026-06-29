@@ -37,7 +37,11 @@
     "test-unit": "cross-env CI=true jest --config ./jest.config.js --runInBand --testTimeout=10000 --testPathPattern \"__tests__/unit\" --testPathIgnorePatterns \"__tests__/unit/storyshots-(ltr|rtl).test.ts\"",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_6f661388be77742"
+    "chromatic": "npx chromatic --project-token=chpt_6f661388be77742",
+    "figma:create": "figma connect create",
+    "figma:publish": "figma connect publish",
+    "figma:unpublish": "figma connect unpublish",
+    "figma:parse": "figma connect parse"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -58,6 +62,7 @@
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-typescript": "^7.23.3",
+    "@figma/code-connect": "^1.4.8",
     "@storybook/addon-actions": "^7.6.3",
     "@storybook/addon-essentials": "^7.6.3",
     "@storybook/addon-interactions": "^7.6.3",
