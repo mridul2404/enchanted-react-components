@@ -13,7 +13,8 @@
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["@figma/code-connect/figma-types"]
   },
   "exclude": [
     "node_modules",

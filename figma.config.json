@@ -1,6 +1,7 @@
 {
   "codeConnect": {
     "parser": "react",
+    "label": "React",
     "include": ["src/**/*.tsx", "src/**/*.ts"],
     "exclude": [
       "node_modules/**",
@@ -9,6 +10,7 @@
       "**/*.test.*",
       "**/*.stories.*"
     ],
+    "language": "tsx",
     "importPaths": {
       "@hcl-software/enchanted-react-components/*": "./src/*"
     }

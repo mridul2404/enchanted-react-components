@@ -2,6 +2,6 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": true,
-  "chat.mcp.enabled": true,
-  "github.copilot.chat.agent.runTasks": true
+  "github.copilot.chat.agent.runTasks": true,
+  "chat.mcp.access": "all"
 }
